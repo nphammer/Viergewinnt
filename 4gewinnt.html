@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Vier Gewinnt</title>
+    </head>
+
+    <body>
+        <h1>Vier Gewinnt</h1>
+        <link rel="stylesheet" href="styles4gewinnt.css">
+        <p id="lolol">Wer beginnt?</p>
+        <button id="colorbutton1" onclick="farbe(1)">Gelb</button>
+        <button id="colorbutton2" onclick="farbe(2)">Rot</button>
+        <br>
+        <br>
+        <button onclick="resetGame()">Spiel neu starten</button>
+        <p></p>
+        <div id="buttons">
+            <button onclick="einwerfen(0)">Einwerfen</button>
+            <button onclick="einwerfen(1)">Einwerfen</button>
+            <button onclick="einwerfen(2)">Einwerfen</button>
+            <button onclick="einwerfen(3)">Einwerfen</button>
+            <button onclick="einwerfen(4)">Einwerfen</button>
+            <button onclick="einwerfen(5)">Einwerfen</button>
+            <button onclick="einwerfen(6)">Einwerfen</button>
+        </div>
+        <div id="spielfeld"></div>
+        <script src="4gewinnt.js"></script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+#spielfeld{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    height: 470px;
+    width: 550px;
+    border: solid black 5px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    background-color: black;
+    border: solid black 5px;
+    justify-content: space-around;
+}
+
+.column{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.coin{
+    height: 69px;
+    width: 69px;
+    border-radius: 50%;
+    /*text-align: center;*/
+    font-size: 0;
+}
+
+.blue{
+    border: solid darkblue 5px;
+    background-color: lightblue;
+    /*color: blue;*/
+}
+
+.yellow{
+    border: solid darkblue 5px;
+    background-color: yellow;
+    /*color: yellow;*/
+}
+
+.red{
+    border: solid darkblue 5px;
+    background-color: red;
+    /*color: red;*/
+}
+
+.win{
+    border: solid lime 5px;
+}
